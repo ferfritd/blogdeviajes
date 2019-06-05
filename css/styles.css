@@ -23,10 +23,6 @@ p{
     line-height: 2;
 }
 
-h2{
-    margin: 0;
-}
-
 .contenedor-navegacion{
     max-width: 120rem;
     margin: 0 auto;
@@ -155,6 +151,10 @@ h2{
 
 /* Sidebar */
 
+.otros-posts{
+    margin-bottom: 6rem;
+}
+
 .otros-posts ul{
     list-style: none;
     padding: 0;
@@ -178,4 +178,41 @@ h2{
 
 .otros-posts ul li:hover a{
     color: #fff;
+}
+
+/* Footer */
+
+.site-footer{
+    background-color: #db008d;
+    padding-top: 4rem;
+    color: #fff;
+    text-align: center;
+}
+
+.site-footer a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.site-footer a:last-of-type{
+    margin-right: 0;
+}
+
+@media (min-width: 768px) {
+    .nosotros{
+        float: left;
+        width: 40%;
+        text-align: left;
+    }
+    .menu{
+    float: right;
+    width: 50%;
+    text-align: right;
+    }
+    }
+.copyright{
+    background-color: #b10474;
+    padding: 2rem 0;
+    margin: 5rem 0 0 0;
 }
